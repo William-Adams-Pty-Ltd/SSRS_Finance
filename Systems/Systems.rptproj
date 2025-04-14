@@ -38,10 +38,6 @@
       <FullPath>Boomi Locket Intergration Test only.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Copy of Copy (2) of Invoices paid from SecurePay.rdl</Name>
-      <FullPath>Copy of Copy (2) of Invoices paid from SecurePay.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Customers with no AA Influencer.rdl</Name>
       <FullPath>Customers with no AA Influencer.rdl</FullPath>
     </ProjectItem>
@@ -64,14 +60,6 @@
     <ProjectItem>
       <Name>Invoices paid from SecurePay V2.rdl</Name>
       <FullPath>Invoices paid from SecurePay V2.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Invoices paid from SecurePay.rdl</Name>
-      <FullPath>Invoices paid from SecurePay.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Invoices paid from SecurePay-Jonathan.rdl</Name>
-      <FullPath>Invoices paid from SecurePay-Jonathan.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>New Cores Sold - Credit Details.rdl</Name>
@@ -112,10 +100,6 @@
     <ProjectItem>
       <Name>Test.rdl</Name>
       <FullPath>Test.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Copy of Invoices paid from SecurePay V2.rdl</Name>
-      <FullPath>Copy of Invoices paid from SecurePay V2.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>
