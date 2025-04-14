@@ -18,13 +18,16 @@
               <Width>1in</Width>
             </TablixColumn>
             <TablixColumn>
+              <Width>2.64583in</Width>
+            </TablixColumn>
+            <TablixColumn>
               <Width>2.25in</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>2.64583in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.30208in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -201,7 +204,7 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Textbox9">
+                    <Textbox Name="Textbox12">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
@@ -209,6 +212,43 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Customer Name</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox12</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>Silver</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox9">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Merchant Id</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -245,7 +285,20 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Securepay Reg</Value>
+                              <Value>SequrePay Ref</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -460,14 +513,16 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="CUSTNM1">
+                    <Textbox Name="Textbox24">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!CUSTNM.Value</Value>
+                              <Value>=iif(Fields!CUNO.Value="333333",Fields!CUSTNM.Value
+,
+Fields!CUNM.Value &amp; "" &amp; Fields!CUNM2.Value)</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                               </Style>
@@ -478,7 +533,41 @@
                           </Style>
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>CUSTNM1</rd:DefaultName>
+                      <rd:DefaultName>Textbox24</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="MI_NDTA">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!MI_NDTA.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>MI_NDTA</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -700,6 +789,41 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
+                    <Textbox Name="Textbox20">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox20</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
                     <Textbox Name="Textbox18">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
@@ -815,6 +939,7 @@
             <TablixMember />
             <TablixMember />
             <TablixMember />
+            <TablixMember />
           </TablixMembers>
         </TablixColumnHierarchy>
         <TablixRowHierarchy>
@@ -859,14 +984,14 @@
         </Filters>
         <Top>0.11in</Top>
         <Height>0.89in</Height>
-        <Width>10.51042in</Width>
+        <Width>13.45833in</Width>
         <Style />
       </Tablix>
     </ReportItems>
     <Height>1.07292in</Height>
     <Style />
   </Body>
-  <Width>10.51042in</Width>
+  <Width>13.45833in</Width>
   <Page>
     <PageHeader>
       <Height>1.36418cm</Height>
@@ -893,7 +1018,7 @@
           </Paragraphs>
           <rd:DefaultName>textbox1</rd:DefaultName>
           <Height>0.53708in</Height>
-          <Width>10.51042in</Width>
+          <Width>13.45833in</Width>
           <Style>
             <BackgroundColor>#fec63d</BackgroundColor>
             <PaddingLeft>2pt</PaddingLeft>
@@ -1023,28 +1148,49 @@
     SELECT IVNO1, IVDAT8, RFDCNO, CUNO, TOTBAL
     FROM LIBT01.WOPINHD0
     WHERE IVDAT8 BETWEEN ? AND ?
-    AND CUNO = '333333'
-    AND SLSREP IN ('COMMERCE ORDER', 'INTERNET ORDER')
     
     UNION ALL 
     
     SELECT IVNO1, IVDAT8, RFDCNO, CUNO, TOTBAL
     FROM LIBT01H.MSPHDRS0
     WHERE IVDAT8 BETWEEN ? AND ?
-    AND CUNO = '333333'
-    AND SLSREP IN ('COMMERCE ORDER', 'INTERNET ORDER')
 ),
-ReqIdsCTE as (SELECT IVNO1, NTDA
-FROM            LIBT01.WOPINNT0
-WHERE        (NTLNO1 = '003')
-UNION ALL
-SELECT        IVNO1, NTDA
-FROM            LIBT01H.MSPNOTE0
-WHERE        (NTLNO1 = '003')
-ORDER BY IVNO1)
+MerchantIdsCTE AS (
+	SELECT IVNO1, REPLACE(NTDA, ' ', '') AS MI_NDTA
+	FROM            LIBT01.WOPINNT0
+	WHERE         (NTLNO1 = '004') AND (REPLACE(NTDA, ' ', '') LIKE '%WDK%')
+	UNION ALL
+	SELECT IVNO1, REPLACE(NTDA, ' ', '') AS MI_NDTA
+	FROM            LIBT01H.MSPNOTE0
+	WHERE        (NTLNO1 = '004') AND (REPLACE(NTDA, ' ', '') LIKE '%WDK%')
+),
+ReqIdsCTE AS (
+	SELECT        IVNO1, PAGENO, WOSGNO, WOOPNO, NTLNO1, NTDA, WONO
+	FROM            LIBT01.WOPINNT0
+	WHERE        (NTLNO1 = '003')
+	UNION ALL
+	SELECT        IVNO1, PAGENO, WOSGNO, WOOPNO, NTLNO1, NTDA, WONO
+	FROM            LIBT01H.MSPNOTE0
+	WHERE        (NTLNO1 = '003')
+),
+CustomerCTE AS (
+	SELECT        CUNO, CUNM, CUNM2
+	FROM            LIBT01.CIPNAME0
+),
+CustomerZZPCLCSL0CTE as (
+	SELECT        DOCNO, CUSTNM
+	FROM            LIBDLRT01.ZZPCLCSL0
+)
 
-SELECT m.IVNO1, m.IVDAT8, m.RFDCNO, m.CUNO, m.TOTBAL,c.CUSTNM,i.NTDA FROM MasterCTE m, LIBDLRT01.ZZPCLCSL0 c,ReqIdsCTE i
-WHERE m.RFDCNO=c.DOCNO and m.IVNO1=i.IVNO1</CommandText>
+SELECT m.IVNO1, m.IVDAT8, m.RFDCNO, m.CUNO, m.TOTBAL,ri.NTDA,mi.MI_NDTA, c.CUNM, c.CUNM2, c2.CUSTNM FROM MasterCTE m
+LEFT JOIN  ReqIdsCTE ri
+	ON m.IVNO1 = ri.IVNO1
+JOIN MerchantIdsCTE mi
+	ON m.IVNO1 = mi.IVNO1
+LEFT JOIN CustomerCTE c
+    ON m.CUNO = c.CUNO
+LEFT JOIN CustomerZZPCLCSL0CTE c2
+    ON m.RFDCNO = c2.DOCNO</CommandText>
         <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
       </Query>
       <Fields>
@@ -1068,12 +1214,24 @@ WHERE m.RFDCNO=c.DOCNO and m.IVNO1=i.IVNO1</CommandText>
           <DataField>TOTBAL</DataField>
           <rd:TypeName>System.Decimal</rd:TypeName>
         </Field>
-        <Field Name="CUSTNM">
-          <DataField>CUSTNM</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
         <Field Name="NTDA">
           <DataField>NTDA</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MI_NDTA">
+          <DataField>MI_NDTA</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUNM">
+          <DataField>CUNM</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUNM2">
+          <DataField>CUNM2</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUSTNM">
+          <DataField>CUSTNM</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
       </Fields>
