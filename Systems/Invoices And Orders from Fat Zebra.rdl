@@ -21,10 +21,10 @@
               <Width>2.64583in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>2.25in</Width>
+              <Width>3.53125in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>2.64583in</Width>
+              <Width>3.89583in</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>1.30208in</Width>
@@ -244,7 +244,7 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Textbox9">
+                    <Textbox Name="Textbox34">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
@@ -264,7 +264,7 @@
                           </Style>
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Textbox9</rd:DefaultName>
+                      <rd:DefaultName>Textbox34</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -281,7 +281,7 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="textbox8">
+                    <Textbox Name="Textbox37">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
@@ -296,7 +296,9 @@
                               </Style>
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
                         </Paragraph>
                         <Paragraph>
                           <TextRuns>
@@ -312,7 +314,7 @@
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>textbox8</rd:DefaultName>
+                      <rd:DefaultName>Textbox37</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -553,7 +555,7 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Textbox24">
+                    <Textbox Name="Textbox26">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
@@ -573,7 +575,7 @@ Fields!CUNM.Value &amp; "" &amp; Fields!CUNM2.Value)</Value>
                           </Style>
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Textbox24</rd:DefaultName>
+                      <rd:DefaultName>Textbox26</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -636,7 +638,9 @@ Fields!CUNM.Value &amp; "" &amp; Fields!CUNM2.Value)</Value>
                               </Style>
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>NTDA</rd:DefaultName>
@@ -665,7 +669,6 @@ Fields!CUNM.Value &amp; "" &amp; Fields!CUNM2.Value)</Value>
                               <Value>=Fields!TOTBAL.Value</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
-                                <Format>#.00</Format>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -898,7 +901,7 @@ Fields!CUNM.Value &amp; "" &amp; Fields!CUNM2.Value)</Value>
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Textbox18">
+                    <Textbox Name="Textbox36">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
@@ -917,7 +920,7 @@ Fields!CUNM.Value &amp; "" &amp; Fields!CUNM2.Value)</Value>
                           </Style>
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Textbox18</rd:DefaultName>
+                      <rd:DefaultName>Textbox36</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -933,7 +936,7 @@ Fields!CUNM.Value &amp; "" &amp; Fields!CUNM2.Value)</Value>
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Textbox19">
+                    <Textbox Name="Textbox39">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
@@ -947,10 +950,12 @@ Fields!CUNM.Value &amp; "" &amp; Fields!CUNM2.Value)</Value>
                               </Style>
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Textbox19</rd:DefaultName>
+                      <rd:DefaultName>Textbox39</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -1094,14 +1099,14 @@ Fields!CUNM.Value &amp; "" &amp; Fields!CUNM2.Value)</Value>
         </Filters>
         <Top>0.11in</Top>
         <Height>0.89in</Height>
-        <Width>14.45833in</Width>
+        <Width>16.98958in</Width>
         <Style />
       </Tablix>
     </ReportItems>
     <Height>1.07292in</Height>
     <Style />
   </Body>
-  <Width>14.45833in</Width>
+  <Width>17.98958in</Width>
   <Page>
     <PageHeader>
       <Height>1.39946cm</Height>
@@ -1115,7 +1120,7 @@ Fields!CUNM.Value &amp; "" &amp; Fields!CUNM2.Value)</Value>
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>="Invoices/Orders paid from SecurePay between " &amp; Format(Parameters!FromDateParam.Value,"dd/MM/yyyy") &amp; " and " &amp;  Format(Parameters!ToDateParam.Value,"dd/MM/yyyy")</Value>
+                  <Value>="Invoices And Orders from Fat Zebra between " &amp; Format(Parameters!FromDateParam.Value,"dd/MM/yyyy") &amp; " and " &amp;  Format(Parameters!ToDateParam.Value,"dd/MM/yyyy")</Value>
                   <Style>
                     <FontFamily>Tahoma</FontFamily>
                     <FontSize>16pt</FontSize>
@@ -1128,7 +1133,7 @@ Fields!CUNM.Value &amp; "" &amp; Fields!CUNM2.Value)</Value>
           </Paragraphs>
           <rd:DefaultName>textbox1</rd:DefaultName>
           <Height>0.53708in</Height>
-          <Width>14.45833in</Width>
+          <Width>17.98958in</Width>
           <Style>
             <BackgroundColor>#fec63d</BackgroundColor>
             <PaddingLeft>2pt</PaddingLeft>
@@ -1264,30 +1269,38 @@ Fields!CUNM.Value &amp; "" &amp; Fields!CUNM2.Value)</Value>
     SELECT IVNO1, IVDAT8, RFDCNO, CUNO, TOTBAL
     FROM LIBT01.WOPINHD0
     WHERE IVDAT8 BETWEEN ? AND ?
-    
     UNION ALL 
     
     SELECT IVNO1, IVDAT8, RFDCNO, CUNO, TOTBAL
     FROM LIBT01H.MSPHDRS0
     WHERE IVDAT8 BETWEEN ? AND ?
 ),
-MerchantIdsCTE AS (
-	SELECT IVNO1, REPLACE(NTDA, ' ', '') AS MI_NDTA
-	FROM            LIBT01.WOPINNT0
-	WHERE         (NTLNO1 = '004') AND (REPLACE(NTDA, ' ', '') LIKE '%WDK%')
-	UNION ALL
-	SELECT IVNO1, REPLACE(NTDA, ' ', '') AS MI_NDTA
-	FROM            LIBT01H.MSPNOTE0
-	WHERE        (NTLNO1 = '004') AND (REPLACE(NTDA, ' ', '') LIKE '%WDK%')
+InvReqIdsRawCTE AS (
+    SELECT IVNO1, TRIM(NTDA) AS NTDA, NTLNO1
+    FROM LIBT01.WOPINNT0
+    WHERE NTLNO1 IN ('003', '004')
+
+    UNION ALL
+
+    SELECT IVNO1, TRIM(NTDA) AS NTDA, NTLNO1
+    FROM LIBT01H.MSPNOTE0
+    WHERE NTLNO1 IN ('003', '004')
 ),
-ReqIdsCTE AS (
-	SELECT        IVNO1, PAGENO, WOSGNO, WOOPNO, NTLNO1, NTDA, WONO
+InvReqIdsCTE AS (
+    SELECT 
+        IVNO1,
+        LISTAGG(NTDA, '') WITHIN GROUP (ORDER BY NTLNO1) AS NTDA
+    FROM InvReqIdsRawCTE
+    GROUP BY IVNO1
+),
+InvMerchantIdsCTE AS (
+	SELECT IVNO1, NTDA AS MI_NDTA
 	FROM            LIBT01.WOPINNT0
-	WHERE        (NTLNO1 = '003')
+	WHERE         (NTLNO1 = '002') AND (NTDA LIKE '%CREDIT CARD ORDER - PAID%')
 	UNION ALL
-	SELECT        IVNO1, PAGENO, WOSGNO, WOOPNO, NTLNO1, NTDA, WONO
+	SELECT IVNO1, NTDA AS MI_NDTA
 	FROM            LIBT01H.MSPNOTE0
-	WHERE        (NTLNO1 = '003')
+	WHERE        (NTLNO1 = '002') AND (NTDA LIKE '%CREDIT CARD ORDER - PAID%')
 ),
 CustomerCTE AS (
 	SELECT        CUNO, CUNM, CUNM2
@@ -1296,25 +1309,57 @@ CustomerCTE AS (
 CustomerZZPCLCSL0CTE as (
 	SELECT        DOCNO, CUSTNM
 	FROM            LIBDLRT01.ZZPCLCSL0
+),
+OrderMerchantIdsCTE AS (
+	SELECT     RFDCNO , NTDA,NTLNNO
+	FROM            LIBT01.PCPCONT0
+	WHERE        (NTLNNO = 2)
+),
+OrderReqIdsRawCTE AS (
+	SELECT     RFDCNO , TRIM(NTDA) AS NTDA,NTLNNO
+	FROM            LIBT01.PCPCONT0
+	WHERE        NTLNNO IN (3,4)
+
+),
+OrderReqIdsCTE AS (
+    SELECT 
+        RFDCNO,
+        LISTAGG(NTDA, '') WITHIN GROUP (ORDER BY NTLNNO) AS NTDA
+    FROM OrderReqIdsRawCTE
+    GROUP BY RFDCNO
 )
 
-SELECT m.IVNO1, m.IVDAT8, m.RFDCNO, m.CUNO, m.TOTBAL,ri.NTDA,mi.MI_NDTA, c.CUNM, c.CUNM2, c2.CUSTNM, '' AS SRC FROM MasterCTE m
-LEFT JOIN  ReqIdsCTE ri
-	ON m.IVNO1 = ri.IVNO1
-JOIN MerchantIdsCTE mi
+SELECT m.IVNO1, m.IVDAT8, m.RFDCNO, m.CUNO, m.TOTBAL,
+c.CUNM, c.CUNM2, c2.CUSTNM,
+mi.MI_NDTA,
+iri.NTDA,
+'' AS SRC
+FROM MasterCTE m
+LEFT JOIN InvReqIdsCTE iri
+ON m.IVNO1=iri.IVNO1
+JOIN InvMerchantIdsCTE mi
 	ON m.IVNO1 = mi.IVNO1
 LEFT JOIN CustomerCTE c
-    ON m.CUNO = c.CUNO
+ON m.CUNO = c.CUNO
 LEFT JOIN CustomerZZPCLCSL0CTE c2
-    ON m.RFDCNO = c2.DOCNO
-    
+ON m.RFDCNO = c2.DOCNO
+
 UNION ALL
 
-SELECT h.RFDCNO, h.ENDT8, h.RFDCNO ,h.CUNO,h.DCDTOT AS TOTBAL, O.NTDA,'' AS MI_NDTA, H.CUNM ,H.CUNM2,'' AS CUSTNM, 'O' AS SRC
+SELECT h.RFDCNO AS IVNO1, h.ENDT8, h.RFDCNO ,h.CUNO,h.DCDTOT AS TOTBAL,
+H.CUNM ,H.CUNM2,'' AS CUSTNM,
+omi.NTDA AS MI_NDTA,
+oid.NTDA,
+'O' AS SRC
 FROM LIBT01.PCPCOHD0 h
 LEFT JOIN LIBT01.PCPCONT0 o
 ON h.RFDCNO =o.RFDCNO
-WHERE h.ENDT8 BETWEEN ? AND ?</CommandText>
+JOIN OrderMerchantIdsCTE omi
+ON h.RFDCNO=omi.RFDCNO
+LEFT JOIN OrderReqIdsCTE oid
+ON h.RFDCNO = oid.RFDCNO
+WHERE h.ENDT8 BETWEEN ? AND ?
+AND O.NTDA LIKE '%CREDIT CARD ORDER - PAID%'</CommandText>
         <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
       </Query>
       <Fields>
@@ -1338,14 +1383,6 @@ WHERE h.ENDT8 BETWEEN ? AND ?</CommandText>
           <DataField>TOTBAL</DataField>
           <rd:TypeName>System.Decimal</rd:TypeName>
         </Field>
-        <Field Name="NTDA">
-          <DataField>NTDA</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="MI_NDTA">
-          <DataField>MI_NDTA</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
         <Field Name="CUNM">
           <DataField>CUNM</DataField>
           <rd:TypeName>System.String</rd:TypeName>
@@ -1356,6 +1393,14 @@ WHERE h.ENDT8 BETWEEN ? AND ?</CommandText>
         </Field>
         <Field Name="CUSTNM">
           <DataField>CUSTNM</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MI_NDTA">
+          <DataField>MI_NDTA</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="NTDA">
+          <DataField>NTDA</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="SRC">
